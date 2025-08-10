@@ -43,9 +43,7 @@ python3 -m venv .venv
 Type the following command once the virtual environment is activated:
 
 ```
-git clone git@github.ibm.com:CMD-TRL/mhg-gnn.git
-cd ./mhg-gnn
-pip install .
+pip install git+https://github.com/bisect-group/materials-mhg-gnn-fork.git
 ```
 
 ## Feature Extraction
